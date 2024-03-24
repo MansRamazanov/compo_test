@@ -1,0 +1,1 @@
+export { default as OverPriceShoes } from './OverPriceShoes.vue'
