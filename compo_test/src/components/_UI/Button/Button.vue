@@ -1,6 +1,6 @@
 <template>
   <button class="button">
-    <Icon v-if="props.icon" icon:props.icon />
+    <Icon v-if="props.icon" :icon="props.icon" />
     {{ props.title }}
   </button>
 </template>
