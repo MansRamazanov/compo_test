@@ -1,0 +1,1 @@
+export { default as IconShopping } from './IconShopping.vue'

@@ -1,0 +1,1 @@
+export { default as PhotoBarComponent } from './PhotoBarComponent.vue'

@@ -1,0 +1,1 @@
+export { default as ProductSpecificationComponent } from './ProductSpecificationComponent.vue'

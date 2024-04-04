@@ -1,0 +1,1 @@
+export { default as IconDropLeft } from './IconDropLeft.vue';
