@@ -5,7 +5,8 @@
 </template>
 
 <script setup lang="ts">
-import { HeaderLayout } from "@/components";
+import { HeaderLayout } from "@/pages/_layout/HeaderLayout";
+import { FooterLayout } from "@/pages/_layout/FooterLayout";
 import { RouterView } from "vue-router";
 
 </script>

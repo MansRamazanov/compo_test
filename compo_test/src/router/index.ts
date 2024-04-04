@@ -4,12 +4,11 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/companies',
-      meta: { requiresAuth: true, requiresAdmin: false, collection: 'companies' },
-      component: () => import('../components/_layout/MainLayout.vue'),
+      path: '/Shoes',
+      component: () => import('../pages/_layout/MainLayout.vue'),
       children: [
         {
-          path: '/overpriceshoes',
+          path: 'kappashoes',
           component: () => import('../pages/ProductInfoPage/ProductInfoPage.vue'),
         },
       ],

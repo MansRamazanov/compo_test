@@ -1,10 +1,12 @@
 <template>
   <button class="button">
-    <Icon v-if="props.icon" :icon="props.icon" />
+    <Icon v-if="props.icon" :icon="props.icon" class="icon" />
     {{ props.title }}
   </button>
 </template>
 <script setup lang="ts">
+import { Icon } from "@/assets/Icons";
+
 const props = defineProps({
   title: String,
   icon: String,
@@ -17,10 +19,16 @@ const props = defineProps({
   border-radius: 10px;
   padding: 12px 24px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 .button:hover {
   background-color: rgba(49, 108, 255, 1);
   cursor: pointer;
   box-shadow: 0px 5px 5px rgba(49, 108, 255, 0.2);
+}
+
+.icon {
+  padding-right: 12px;
 }
 </style>

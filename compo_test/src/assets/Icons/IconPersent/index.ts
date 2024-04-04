@@ -1,0 +1,1 @@
+export { default as IconPersent } from './IconPersent.vue'

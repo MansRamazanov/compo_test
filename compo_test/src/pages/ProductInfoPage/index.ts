@@ -1,1 +1,1 @@
-export { default as OverPriceShoes } from './OverPriceShoes.vue'
+export { default as ProductInfoPage } from './ProductInfoPage.vue'

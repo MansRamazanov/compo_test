@@ -7,13 +7,34 @@ export { IconBrand } from './IconBrand';
 export { IconSearch } from './IconSearch';
 export { IconBell } from './IconBell';
 export { IconHeart } from './IconHeart';
-export { IconShopping } from './IconShopping'
-
+export { IconShopping } from './IconShopping';
+export { IconPersent } from './IconPersent';
+export { IconChat } from './IconChat';
+export { IconDropLeft } from './IconDropLeft';
+export { IconDropRight } from './IconDropRight';
+export { IconShoppingCart } from './IconShoppingCart';
+export { IconFile } from './IconFile';
+export { IconVideo } from './IconVideo';
+export { IconInfo } from './IconInfo';
+export { IconYouTube } from './IconYouTube';
+export { IconPlus } from './IconPlus';
+export { IconMinus } from './IconMinus';
 
 
 export { default as Icon } from './IconSet.vue';
 
-import { IconShopping } from './IconShopping'
+
+import { IconMinus } from './IconMinus';
+import { IconPlus } from './IconPlus';
+import { IconInfo } from './IconInfo';
+import { IconVideo } from './IconVideo';
+import { IconFile } from './IconFile';
+import { IconShoppingCart } from './IconShoppingCart';
+import { IconDropRight } from './IconDropRight';
+import { IconDropLeft } from './IconDropLeft';
+import { IconChat } from './IconChat';
+import { IconPersent } from './IconPersent';
+import { IconShopping } from './IconShopping';
 import { IconHeart } from './IconHeart';
 import { IconBell } from './IconBell';
 import { IconBrand } from './IconBrand';
@@ -22,6 +43,8 @@ import { IconList } from './IconList';
 import { IconDropDown } from './IconDropDown';
 import { IconDropUp } from './IconDropUp';
 import { IconClose } from './IconClose';
+import { IconYouTube } from './IconYouTube';
+
 
 
 export const BarComponentObjects = {
@@ -33,5 +56,16 @@ export const BarComponentObjects = {
   IconSearch,
   IconBell,
   IconHeart,
-  IconShopping
+  IconShopping,
+  IconPersent,
+  IconChat,
+  IconDropLeft,
+  IconDropRight,
+  IconShoppingCart,
+  IconFile,
+  IconVideo,
+  IconInfo,
+  IconYouTube,
+  IconPlus,
+  IconMinus
 }

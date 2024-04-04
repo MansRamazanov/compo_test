@@ -1,0 +1,1 @@
+export { default as FooterCategoryComponent } from './FooterCategoryComponent.vue'

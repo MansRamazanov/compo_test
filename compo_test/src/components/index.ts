@@ -1,7 +1,14 @@
-export { MainLayout } from "./_layout";
-export { HeaderLayout } from './_layout/HeaderLayout';
 export { Button } from './_UI/Button';
 export { HeaderInput } from './_UI/HeaderInput';
+export { Switcher } from './_UI/Switcher';
 export { ShoppingCartComponent } from './ShoppingCartComponent';
 export { NavigationComponent } from './NavigationComponent';
 export { UserMenu } from './UserMenu';
+export { PhotoBarComponent } from './PhotoBarComponent';
+export { BuyProductComponent } from './BuyProductComponent';
+export { ProductSpecificationComponent } from './ProductSpecificationComponent';
+export { ProductDescriptionComponent } from './ProductDescriptionComponent';
+export { FooterSupportComponent } from './FooterSupportComponent';
+export { FooterCategoryComponent } from './FooterCategoryComponent';
+export { CategoryListComponent } from './CategoryListComponent';
+export { FooterContactsComponent } from './FooterContactsComponent';
