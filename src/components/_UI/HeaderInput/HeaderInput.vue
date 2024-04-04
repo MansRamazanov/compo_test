@@ -42,6 +42,7 @@ function clearInput() {
  display: flex;
  align-items: center;
  min-width: 730px;
+ height: 22px;
 
  &:hover {
     border:1px solid rgba(21, 81, 229, 1);

@@ -2,7 +2,7 @@
   <div>
     <div class="header_container">
       <Icon icon="Brand" class="header_logo ml-m" />
-      <Button title="Меню" icon="List" class="ml-m" />
+      <Button title="Меню" icon="List" class="ml-m button_menu" />
       <HeaderInput placeholder="Название запроса" icon="Search" class="ml-m" />
       <Icon icon="Bell" class="clr_primary ml-m notificarion_button" />
       <div class="border ml-m"></div>
@@ -52,7 +52,10 @@ import {
   border-right: 1px solid rgba(226, 228, 240, 1);
   height: 35px;
 }
-
-.nav {
+.button_menu {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  height: 40px;
 }
 </style>

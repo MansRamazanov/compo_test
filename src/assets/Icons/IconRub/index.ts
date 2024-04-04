@@ -1,0 +1,1 @@
+export { default as IconRub } from './IconRub.vue'

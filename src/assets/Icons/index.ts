@@ -19,11 +19,13 @@ export { IconInfo } from './IconInfo';
 export { IconYouTube } from './IconYouTube';
 export { IconPlus } from './IconPlus';
 export { IconMinus } from './IconMinus';
+export { IconRub } from './IconRub';
 
 
 export { default as Icon } from './IconSet.vue';
 
 
+import { IconRub } from './IconRub';
 import { IconMinus } from './IconMinus';
 import { IconPlus } from './IconPlus';
 import { IconInfo } from './IconInfo';
@@ -67,5 +69,6 @@ export const BarComponentObjects = {
   IconInfo,
   IconYouTube,
   IconPlus,
-  IconMinus
+  IconMinus,
+  IconRub
 }

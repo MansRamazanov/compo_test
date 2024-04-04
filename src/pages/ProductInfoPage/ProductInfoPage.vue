@@ -2,11 +2,11 @@
   <div class="product_container pt-l px-m">
     <div class="route clr_grey">
       <div class="route_item">Каталог</div>
-      <div>/</div>
+      <div class="slash_route">/</div>
       <div class="route_item">Обувь</div>
-      <div>/</div>
+      <div class="slash_route">/</div>
       <div class="route_item">Кроссовки</div>
-      <div>/</div>
+      <div class="slash_route">/</div>
       <div class="route_item">Беговые</div>
     </div>
     <div class="title pt-m">кроссовки мужские skechers sunny dale</div>
@@ -43,6 +43,13 @@ console.log(shoes);
 .route_item {
   padding-right: 4px;
   padding-left: 4px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.slash_route {
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .route_item:first-child {

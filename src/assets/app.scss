@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Ghotam';
+  src: url(./fonts/gotham-book-webfont.woff2);
+}
+
+
 $size-s: 16px;
 $size-m: 24px;
 $size-l: 32px;
@@ -14,6 +20,7 @@ $color-ghost: rgba(242, 246, 255, 1);
     max-width: 1600px;
     margin: 0 auto;
     font-weight: normal;
+    font-family: 'Ghotam', Arial, Helvetica, sans-serif;
   }
 
 //COLOR_______

@@ -5,7 +5,7 @@
       <div v-if="cartCounter > 0" class="counter">
         {{ cartCounter }}
       </div>
-      <div class="price ml-s">144235 руб</div>
+      <div class="price ml-s">144235<Icon icon="Rub" class="icon_rub"/></div>
     </div>
   </div>
 </template>
@@ -27,7 +27,10 @@ const cartCounter = ref(0);
 }
 
 .price {
-
+font-size: 14px;
+font-weight: bold;
+display: flex;
+align-items: flex-end;
 }
 
 .counter {
@@ -44,4 +47,9 @@ right: 3px;
 font-size: 10px;
 font-weight: 500;
 }
+
+.icon_rub {
+  padding-bottom: 2px;
+}
+
 </style>

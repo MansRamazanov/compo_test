@@ -42,9 +42,19 @@ import { Icon } from "@/assets/Icons";
   padding: 12px 0;
 }
 
+.nav_menu_item {
+  font-weight: medium;
+  font-size: 14px;
+}
+
 .nav_menu_item:hover {
   cursor: pointer;
   color: rgba(130, 142, 173, 1);
+}
+
+.info_menu_item {
+  font-weight: medium;
+  font-size: 14px;
 }
 
 .info_menu_item:hover {
@@ -58,11 +68,15 @@ import { Icon } from "@/assets/Icons";
   background-color: rgba(233, 235, 244, 1);
   padding: 10px 12px;
   border-radius: 5px;
+  font-weight: medium;
+  font-size: 14px;
 }
 
 .info_menu_sale {
   display: flex;
   align-items: center;
+  font-weight: medium;
+  font-size: 14px;
 }
 
 .icon {
