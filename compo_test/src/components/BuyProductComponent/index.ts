@@ -1,0 +1,1 @@
+export { default as BuyProductComponent } from './BuyProductComponent.vue'
